@@ -1,7 +1,41 @@
+@font-face {
+    font-family: "inter";
+    src: url(/font/inter.zip);
+    
+    
+}
+
 #charts {
-    border: 1px solid black;
+    background: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.1);
     width: 80%;
     height: 90%;
     margin: 5%;
     padding: 2%;
+    border-radius: 0.8rem;
+}
+
+#text {
+    background: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.1);
+    margin: 5%;
+    margin-right: 11%;
+    padding: 2%;
+    border-radius: 0.8rem;
+}
+
+body{
+    margin: 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(to bottom right, rgb(252,171,230), rgb(181,186,238)) fixed;
+    font-family: 'inter', sans-serif;
+    
+}
+
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
 }
