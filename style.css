@@ -6,22 +6,25 @@
 }
 
 #charts {
-    background: rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.3);
     border: 1px solid rgba(255,255,255,0.1);
     width: 80%;
     height: 90%;
-    margin: 5%;
+    margin: 5% 2% 4% 7%;
+	margin-right: 5%;
     padding: 2%;
     border-radius: 0.8rem;
 }
 
 #text {
-    background: rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.3);
     border: 1px solid rgba(255,255,255,0.1);
-    margin: 5%;
-    margin-right: 11%;
+    margin: 5% 2% 8% 7%;
+	width: 80%;
+    height: 90%;
     padding: 2%;
     border-radius: 0.8rem;
+	box-shadow: 6px -5px 10px rgba(255,255,255,0.2);
 }
 
 body{
@@ -30,6 +33,7 @@ body{
     background-attachment: fixed;
     background: linear-gradient(to bottom right, rgb(252,171,230), rgb(181,186,238)) fixed;
     font-family:  "inter", sans-serif;
+	
     
 }
 
@@ -38,4 +42,21 @@ h1 {
 }
 p {
     text-align: center;
+}
+
+span {
+	color: violet;
+	background: black;
+	border-radius: 0.2rem;
+	box-shadow: 3px 2px 3px gray;
+}
+
+#gls {
+	font-family; sans-serif;
+	color: yellow;
+	/*background-color: black;*/
+	border: 10px 10px 10px;
+}
+#ident {
+	/*background: linear-gradient(to bottom right, black, gray);*/
 }
