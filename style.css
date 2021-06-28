@@ -1,6 +1,6 @@
 @font-face {
     font-family: "inter";
-    src: url(/font/inter.zip);
+    src: local(/font/Inter/Inter-VariableFont_slnt,wght.ttf);
     
     
 }
@@ -29,7 +29,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background: linear-gradient(to bottom right, rgb(252,171,230), rgb(181,186,238)) fixed;
-    font-family: 'inter', sans-serif;
+    font-family:  "inter", sans-serif;
     
 }
 
