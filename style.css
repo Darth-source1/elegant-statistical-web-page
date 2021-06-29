@@ -8,23 +8,41 @@
 #charts {
     background: rgba(255,255,255,0.3);
     border: 1px solid rgba(255,255,255,0.1);
-    width: 80%;
-    height: 90%;
-    margin: 5% 2% 4% 7%;
-	margin-right: 5%;
-    padding: 2%;
+    width: 70%;
+    height: 70%;
+    margin: 2% 14% 2% 13%;
+
+    /*padding: 1%;*/
+    /*padding-right: 1%;*/
     border-radius: 0.8rem;
 }
 
-#text {
-    background: rgba(255,255,255,0.3);
-    border: 1px solid rgba(255,255,255,0.1);
-    margin: 5% 2% 8% 7%;
-	width: 80%;
-    height: 90%;
-    padding: 2%;
+#first_chart {
+    border: 1px solid rgba(255,255,255,0.3);
     border-radius: 0.8rem;
-	box-shadow: 6px -5px 10px rgba(255,255,255,0.2);
+    width: 80%;
+
+    background-color: rgba(255,255,255,0.3);
+    margin: 1% 1% 1% 10%;
+}
+
+#text {
+    background: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.1);
+    margin: 5% 2% 4% 7%;
+	width: 80%;
+    height: 70%;
+    padding: 1% 1% 5% 1%;
+    border-radius: 0.8rem;
+	/*box-shadow: 6px -5px 10px rgba(255,255,255,0.2);*/
+}
+article {
+    background-color: rgba(255,255,255,0.3);
+    margin: 2% 2% 5% 10%;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 0.8rem;
+    width: 80%;
+    box-shadow: 0px 40px 50px rgba(255,255,255,0.3);
 }
 
 body{
@@ -45,10 +63,11 @@ p {
 }
 
 span {
+    padding: 0.1% 0.2% 0.1% 0.2%;
 	color: violet;
 	background: black;
 	border-radius: 0.2rem;
-	box-shadow: 3px 2px 3px gray;
+	box-shadow: 3px 2px 3px black;
 }
 
 #gls {
