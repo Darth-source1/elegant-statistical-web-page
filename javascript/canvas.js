@@ -22,6 +22,7 @@ function canvas() {
 }
 
 function rect_graf(x1, y1 = 150) {
+    get_data()
 	cxt.fillStyle = "green";
     for (i = 0;i < 5;i++) {
     cxt.fillRect(x1,y1,10,10);
@@ -88,5 +89,8 @@ function  lines_with_name() {
     cxt.fillText("eje x",35,162);
     cxt.fillText("eje y", 55, 180);
     
+    
+}
+function get_data(){
     
 }
