@@ -75,9 +75,10 @@ span {
 
 #gls {
 	font-family; sans-serif;
-	color: yellow;
+	color: rgba(115,230,66,1);
 	/*background-color: black;*/
 	border: 10px 10px 10px;
+    background: black;
 }
 #ident {
 	/*background: linear-gradient(to bottom right, black, gray);*/
