@@ -35,17 +35,31 @@
     padding: 1% 1% 5% 1%;
     border-radius: 0.8rem;
     filter: blur(0px);
+    position: absolute;
 	/*box-shadow: 6px -5px 10px rgba(255,255,255,0.2);*/
 }
 article {
+    float: top;
     background-color: rgba(255,255,255,0.3);
-    margin: 2% 2% 5% 10%;
+    margin: 2% 10px 5% 10%;
     border: 1px solid rgba(255,255,255,0.1);
     border-radius: 0.8rem;
-    width: 80%;
+    width: 70%;
     box-shadow: 0px 40px 50px rgba(255,255,255,0.3);
+    position: absolute;
+    
     
 }
+#image {
+    
+    float: left;
+    width: 40%;
+    border-radius: 0.8rem;
+   margin: 1% 1% 1% 1%;
+   padding: 1% 2% 1% 1%;
+}
+
+
 
 body{
     margin: 0%;
@@ -61,8 +75,16 @@ h1 {
     text-align: center;
 }
 p {
+    
     text-align: center;
     
+}
+#secod_p {
+    
+    text-align: justify;
+    margin: 1% 1% 1% 1%;
+    display: inline-block;
+    float: right;
 }
 
 span {
@@ -74,11 +96,14 @@ span {
 }
 
 #gls {
-	font-family; sans-serif;
+	font-family: sans-serif;
 	color: rgba(115,230,66,1);
 	/*background-color: black;*/
 	border: 10px 10px 10px;
     background: black;
+}
+#glass {
+    color: rgba(218,72,234,0.1);
 }
 #ident {
 	/*background: linear-gradient(to bottom right, black, gray);*/
