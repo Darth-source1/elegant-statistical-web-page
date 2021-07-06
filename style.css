@@ -31,7 +31,7 @@
     border: 1px solid rgba(255,255,255,0.1);
     margin: 5% 2% 4% 7%;
 	width: 80%;
-    height: 70%;
+    height: 90%;
     padding: 1% 1% 5% 1%;
     border-radius: 0.8rem;
     filter: blur(0px);
@@ -39,26 +39,34 @@
 	/*box-shadow: 6px -5px 10px rgba(255,255,255,0.2);*/
 }
 article {
-    float: top;
     background-color: rgba(255,255,255,0.3);
-    margin: 2% 10px 5% 10%;
+    margin: 2% 10% 5% 10%;
     border: 1px solid rgba(255,255,255,0.1);
     border-radius: 0.8rem;
     width: 70%;
+    height: 90%;
     box-shadow: 0px 40px 50px rgba(255,255,255,0.3);
     position: absolute;
     
     
 }
-#image {
+figure {
     
-    float: left;
-    width: 40%;
-    border-radius: 0.8rem;
-   margin: 1% 1% 1% 1%;
-   padding: 1% 2% 1% 1%;
+    margin: 1% 1% 2% 2%;
+    padding: 1% 1% 2% 8%;
+    
+}
+img {
+    opacity: 0.9;
+    border-radius: 1rem;
+    margin: 1% 1% 1% 4%;
 }
 
+figcaption {
+    margin: 1% 6% 3% 1%;
+   
+    
+}
 
 
 body{
@@ -79,13 +87,7 @@ p {
     text-align: center;
     
 }
-#secod_p {
-    
-    text-align: justify;
-    margin: 1% 1% 1% 1%;
-    display: inline-block;
-    float: right;
-}
+
 
 span {
     padding: 0.1% 0.2% 0.1% 0.2%;
@@ -96,8 +98,7 @@ span {
 }
 
 #gls {
-	font-family: sans-serif;
-	color: rgba(115,230,66,1);
+	color: rgba(115,230,66,0.9);
 	/*background-color: black;*/
 	border: 10px 10px 10px;
     background: black;
@@ -105,6 +106,8 @@ span {
 #glass {
     color: rgba(218,72,234,0.1);
 }
+
+
 #ident {
 	/*background: linear-gradient(to bottom right, black, gray);*/
 }
